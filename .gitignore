@@ -1,0 +1,28 @@
+# Composer dependencies
+/vendor/
+composer.lock
+
+# API Keys and sensitive config (bảo mật)
+php/config.php
+php/google_config.php
+
+# Logs
+/logs/
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
