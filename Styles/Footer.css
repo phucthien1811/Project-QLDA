@@ -1,0 +1,157 @@
+/* Plc */
+.plc {
+	background: #fff;
+	/* overflow: hidden; */
+	font-size: 15px;
+	color: #333;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.plc ul {
+	width: 100%;
+	text-align: center;
+}
+
+.plc li {
+	width: 20%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	line-height: 20px;
+	border-right: solid 1px #bbb;
+	margin: 5px 0;
+}
+
+.plc li:last-child {
+	border-right: none;
+}
+
+/* ============= Samsung Footer ============= */
+.samsung-footer {
+	background: #fff;
+	border-top: 1px solid #e0e0e0;
+	padding: 20px 0 10px;
+	margin-top: 0;
+}
+
+.footer-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.footer-links {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-bottom: 0;
+}
+
+.footer-left {
+	display: flex;
+	gap: 30px;
+	align-items: center;
+}
+
+.footer-left h4 {
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+}
+
+.footer-social {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.footer-social span {
+	font-size: 14px;
+	color: #000;
+	white-space: nowrap;
+}
+
+.social-icons {
+	display: flex;
+	gap: 15px;
+}
+
+.social-icons a {
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #000;
+	text-decoration: none;
+	font-size: 18px;
+	transition: opacity 0.2s;
+}
+
+.social-icons a:hover {
+	opacity: 0.6;
+}
+
+
+
+/* Old Footer Styles */
+.footer {
+	position: relative;
+	width: 100%;
+	background: #476;
+}
+
+.copy-right {
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #ccc;
+	background-color: #252525;
+}
+
+.copy-right a {
+	color: #ccc;
+	transition: .2s ease;
+}
+
+.copy-right a:hover {
+	color: #fff;
+}
+
+/* ======= End Footer ======== */
+
+@media only screen and (max-width: 768px){
+	.plc {
+		border-left: 1px solid #bbb;
+		border-right: 1px solid #bbb;
+		border-top: 0;
+		border-bottom: 0;
+	}
+	
+	.plc li {
+		float: none;
+		width: 100%;
+		border-top: solid 1px #bbb;
+		border-bottom: solid 1px #bbb;
+		border-left: 0;
+		border-right: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+	.footer-links {
+		flex-direction: column;
+		gap: 20px;
+	}
+	
+	.footer-social {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 10px;
+	}
+}
