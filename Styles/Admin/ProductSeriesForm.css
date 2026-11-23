@@ -1,0 +1,629 @@
+/* ============================================
+   PRODUCT SERIES FORM - Clean Modern Admin Styles
+   Author: Admin Dashboard Designer
+   Version: 3.0 - Clean Flat Design
+   ============================================ */
+
+/* === FORM CONTAINER === */
+#admin-dashboard-app #productForm {
+    max-width: 100%;
+}
+
+/* === SECTION HEADER - Light Gray Style === */
+#admin-dashboard-app .section-header {
+    background: #f8f9fa;
+    color: #333;
+    padding: 16px 20px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 0;
+    border: 1px solid #e0e0e0;
+    border-bottom: 2px solid #dee2e6;
+}
+
+#admin-dashboard-app .section-header h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    display: flex;
+    align-items: center;
+    color: #2c3e50;
+}
+
+#admin-dashboard-app .section-header h3 i {
+    font-size: 16px;
+    color: #5a6c7d;
+}
+
+#admin-dashboard-app .section-header .btn {
+    background: #fff;
+    border: 1px solid #d0d0d0;
+    color: #333;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#admin-dashboard-app .section-header .btn:hover {
+    background: #e9ecef;
+    border-color: #bbb;
+}
+
+/* === MAIN CARDS === */
+#admin-dashboard-app .mb-4 > .adm-card {
+    background: #ffffff;
+    border-radius: 0 0 8px 8px;
+    padding: 24px;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    margin-top: -1px;
+}
+
+/* === FORM SECTIONS WRAPPER === */
+#admin-dashboard-app .mb-4 {
+    margin-bottom: 24px !important;
+}
+
+#admin-dashboard-app #productForm > .mb-4:first-child {
+    margin-top: 0;
+}
+
+/* === FORM LABELS === */
+#admin-dashboard-app .form-label {
+    font-weight: 600;
+    color: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#admin-dashboard-app .form-label i {
+    color: #666;
+    font-size: 13px;
+}
+
+#admin-dashboard-app .form-label .text-danger {
+    color: #dc3545 !important;
+    font-size: 14px;
+}
+
+/* === FORM CONTROLS === */
+#admin-dashboard-app .form-control,
+#admin-dashboard-app .form-select {
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 14px;
+    transition: border-color 0.2s ease;
+    background-color: #fafafa;
+}
+
+#admin-dashboard-app .form-control:hover,
+#admin-dashboard-app .form-select:hover {
+    border-color: #999;
+}
+
+#admin-dashboard-app .form-control:focus,
+#admin-dashboard-app .form-select:focus {
+    border-color: #333;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+}
+
+#admin-dashboard-app .form-control::placeholder {
+    color: #999;
+}
+
+#admin-dashboard-app .form-text {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* === VARIANT BLOCKS === */
+#admin-dashboard-app .variant-block {
+    background: #fff;
+    border: 1px solid #d8dde3;
+    border-radius: 8px;
+    padding: 0;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+
+#admin-dashboard-app .variant-block:hover {
+    border-color: #b8c4ce;
+}
+
+/* === VARIANT HEADER === */
+#admin-dashboard-app .variant-header {
+    background: #eef1f5;
+    color: #2c3e50;
+    padding: 12px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #d8dde3;
+}
+
+#admin-dashboard-app .variant-title {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#admin-dashboard-app .variant-title::before {
+    content: '\f3cd';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    font-size: 14px;
+    color: #5a6c7d;
+}
+
+#admin-dashboard-app .variant-number {
+    background: #fff;
+    border: 1px solid #c8d0d8;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #5a6c7d;
+}
+
+#admin-dashboard-app .delete-variant-btn {
+    background: #fff;
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+#admin-dashboard-app .delete-variant-btn:hover {
+    background: #e74c3c;
+    color: #fff;
+}
+
+/* === VARIANT BODY === */
+#admin-dashboard-app .variant-body {
+    padding: 18px;
+    background: #fff;
+}
+
+/* === STORAGE & PROMO SECTIONS === */
+#admin-dashboard-app .storage-options-section,
+#admin-dashboard-app .promotions-section {
+    background: #fafbfc;
+    border-radius: 6px;
+    padding: 14px;
+    margin-top: 18px;
+    border: 1px solid #e8ecef;
+}
+
+#admin-dashboard-app .storage-options-section h5,
+#admin-dashboard-app .promotions-section h5 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #4a5568;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+/* === STORAGE OPTION ROW === */
+#admin-dashboard-app .storage-option-row {
+    background: #ffffff;
+    padding: 14px 16px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    border: 1px solid #e2e6ea;
+}
+
+#admin-dashboard-app .storage-option-row:hover {
+    background: #fcfcfd;
+    border-color: #c8d0d8;
+}
+
+/* === PROMO ROWS === */
+#admin-dashboard-app .promo-row {
+    background: #f9fdf9;
+    padding: 14px 16px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    border: 1px solid #d4edda;
+    border-left: 3px solid #28a745;
+}
+
+/* === CARE PLAN ROWS === */
+#admin-dashboard-app .careplan-row {
+    background: #f7fbff !important;
+    padding: 14px 16px !important;
+    border-radius: 6px !important;
+    margin-bottom: 8px;
+    border: 1px solid #cce5ff !important;
+    border-left: 3px solid #4a90d9 !important;
+}
+
+/* === OFFER ROWS === */
+#admin-dashboard-app .offer-row {
+    background: #fffcf5 !important;
+    padding: 14px 16px !important;
+    border-radius: 6px !important;
+    margin-bottom: 8px;
+    border: 1px solid #ffe8b3 !important;
+    border-left: 3px solid #e6a700 !important;
+}
+
+/* === COLOR OPTIONS === */
+#admin-dashboard-app .colors-container {
+    margin-top: 10px !important;
+    padding: 10px !important;
+    padding-left: 16px !important;
+    background: #f9f8fc;
+    border-left: 3px solid #8b5cf6 !important;
+    border-radius: 0 6px 6px 0;
+}
+
+#admin-dashboard-app .color-option-row .row {
+    background: #ffffff !important;
+    border-radius: 6px !important;
+    padding: 12px !important;
+    border: 1px solid #e0e0e0;
+    margin-top: 8px;
+}
+
+/* === BUTTONS === */
+#admin-dashboard-app .add-storage-btn {
+    background: #fff;
+    border: 1px solid #5a6c7d;
+    color: #5a6c7d;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 12px;
+}
+
+#admin-dashboard-app .add-storage-btn:hover {
+    background: #5a6c7d;
+    color: #fff;
+}
+
+#admin-dashboard-app .add-promo-btn {
+    background: #fff;
+    border: 1px solid #28a745;
+    color: #28a745;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 12px;
+}
+
+#admin-dashboard-app .add-promo-btn:hover {
+    background: #28a745;
+    color: #fff;
+}
+
+#admin-dashboard-app .add-color-btn {
+    background: #fff;
+    border: 1px solid #8b5cf6;
+    color: #8b5cf6;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#admin-dashboard-app .add-color-btn:hover {
+    background: #8b5cf6;
+    color: #fff;
+}
+
+/* === DELETE BUTTONS === */
+#admin-dashboard-app .delete-storage-btn,
+#admin-dashboard-app .delete-promo-btn,
+#admin-dashboard-app .delete-color-btn,
+#admin-dashboard-app .delete-series-careplan-btn,
+#admin-dashboard-app .delete-series-offer-btn {
+    background: #fff;
+    border: 1px solid #dc3545;
+    color: #dc3545;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#admin-dashboard-app .delete-storage-btn:hover,
+#admin-dashboard-app .delete-promo-btn:hover,
+#admin-dashboard-app .delete-color-btn:hover,
+#admin-dashboard-app .delete-series-careplan-btn:hover,
+#admin-dashboard-app .delete-series-offer-btn:hover {
+    background: #dc3545;
+    color: #fff;
+}
+
+/* === ADD VARIANT BUTTON === */
+#admin-dashboard-app #addVariantBtn {
+    background: #fff;
+    border: 1px solid #5a6c7d;
+    color: #5a6c7d;
+    padding: 8px 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+#admin-dashboard-app #addVariantBtn:hover {
+    background: #5a6c7d;
+    color: #fff;
+}
+
+/* === SECTION BUTTONS === */
+#admin-dashboard-app #addSeriesCarePlanBtn {
+    background: #fff !important;
+    border: 1px solid #4a90d9 !important;
+    color: #4a90d9 !important;
+    font-size: 13px;
+    padding: 7px 14px;
+}
+
+#admin-dashboard-app #addSeriesCarePlanBtn:hover {
+    background: #4a90d9 !important;
+    color: #fff !important;
+}
+
+#admin-dashboard-app #addSeriesOfferBtn {
+    background: #fff !important;
+    border: 1px solid #e6a700 !important;
+    color: #b38600 !important;
+    font-size: 13px;
+    padding: 7px 14px;
+}
+
+#admin-dashboard-app #addSeriesOfferBtn:hover {
+    background: #e6a700 !important;
+    color: #fff !important;
+}
+
+/* === SUBMIT BUTTONS === */
+#admin-dashboard-app .text-center .btn-primary {
+    background: #3498db;
+    border: none;
+    padding: 12px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#admin-dashboard-app .text-center .btn-primary:hover {
+    background: #2980b9;
+}
+
+#admin-dashboard-app .text-center .btn-secondary {
+    background: #95a5a6;
+    border: none;
+    padding: 12px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#admin-dashboard-app .text-center .btn-secondary:hover {
+    background: #7f8c8d;
+}
+
+/* === PRICE DISPLAYS === */
+#admin-dashboard-app .total-price-display,
+#admin-dashboard-app .storage-total-price {
+    font-size: 13px;
+    font-weight: 600;
+    color: #28a745;
+    margin-top: 6px;
+}
+
+#admin-dashboard-app .total-price-value {
+    font-size: 14px;
+    color: #1e7e34;
+}
+
+/* === IMAGE PREVIEW === */
+#admin-dashboard-app .image-preview {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 3px;
+}
+
+#admin-dashboard-app .image-preview:hover {
+    border-color: #999;
+}
+
+#admin-dashboard-app #series_image_preview,
+#admin-dashboard-app #specs_json_preview {
+    margin-top: 10px;
+    padding: 12px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    border: 1px dashed #ddd;
+}
+
+/* === JSON PREVIEW TABLE === */
+#admin-dashboard-app #specs_json_preview .table {
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 0;
+    border: 1px solid #e0e0e0;
+}
+
+#admin-dashboard-app #specs_json_preview .table thead {
+    background: #5a6c7d;
+}
+
+#admin-dashboard-app #specs_json_preview .table th {
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 10px 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+#admin-dashboard-app #specs_json_preview .table td {
+    padding: 10px 14px;
+    border-color: #eee;
+    font-size: 13px;
+}
+
+/* === TEXTAREA === */
+#admin-dashboard-app textarea.form-control {
+    font-family: 'Consolas', 'Monaco', monospace;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+#admin-dashboard-app textarea#specs_json {
+    background: #f8f9fa;
+    color: #333;
+    border-color: #d0d0d0;
+}
+
+#admin-dashboard-app textarea#specs_json:focus {
+    background: #fff;
+    color: #333;
+    border-color: #5a6c7d;
+}
+
+/* === ALERTS === */
+#admin-dashboard-app .alert-success {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-left: 4px solid #28a745;
+    color: #155724;
+    border-radius: 4px;
+}
+
+#admin-dashboard-app .alert-danger {
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-left: 4px solid #dc3545;
+    color: #721c24;
+    border-radius: 4px;
+}
+
+#admin-dashboard-app .alert-warning {
+    background: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-left: 4px solid #ffc107;
+    color: #856404;
+    border-radius: 4px;
+}
+
+/* === SUB SECTION HEADER === */
+#admin-dashboard-app .sub-section-header {
+    background: #f5f7f9;
+    padding: 10px 14px;
+    border-left: 3px solid #5a6c7d;
+    margin-top: 18px;
+    margin-bottom: 14px;
+    border-radius: 0 4px 4px 0;
+}
+
+#admin-dashboard-app .sub-section-header h5 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: #4a5568;
+}
+
+/* === FILE INPUT === */
+#admin-dashboard-app input[type="color"] {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#admin-dashboard-app input[type="file"]::file-selector-button {
+    background: #5a6c7d;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+#admin-dashboard-app input[type="file"]::file-selector-button:hover {
+    background: #4a5a6a;
+}
+
+/* === EMPTY STATE === */
+#admin-dashboard-app #variantsContainer:empty::after,
+#admin-dashboard-app #seriesCarePlansContainer:empty::after,
+#admin-dashboard-app #seriesOffersContainer:empty::after {
+    content: 'Chưa có mục nào. Nhấn nút để thêm mới.';
+    display: block;
+    text-align: center;
+    padding: 30px 20px;
+    color: #999;
+    font-style: italic;
+    background: #f9f9f9;
+    border: 1px dashed #ddd;
+    border-radius: 6px;
+    margin: 8px 0;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 992px) {
+    #admin-dashboard-app .section-header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    #admin-dashboard-app .variant-header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    #admin-dashboard-app .text-center .btn {
+        display: block;
+        width: 100%;
+        margin: 6px 0 !important;
+    }
+}
+
+@media (max-width: 768px) {
+    #admin-dashboard-app .mb-4 > .adm-card {
+        padding: 14px;
+    }
+    
+    #admin-dashboard-app .variant-body {
+        padding: 14px;
+    }
+}
+
+/* === SCROLLBAR === */
+#admin-dashboard-app textarea::-webkit-scrollbar {
+    width: 8px;
+}
+
+#admin-dashboard-app textarea::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+#admin-dashboard-app textarea::-webkit-scrollbar-thumb {
+    background: #c0c0c0;
+    border-radius: 4px;
+}
+
+#admin-dashboard-app textarea::-webkit-scrollbar-thumb:hover {
+    background: #a0a0a0;
+}
