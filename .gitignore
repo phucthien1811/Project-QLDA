@@ -26,3 +26,6 @@ desktop.ini
 *.tmp
 *.bak
 *.cache
+
+Api/GoogleConfig.php
+Api/Config.php
